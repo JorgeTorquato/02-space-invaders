@@ -390,7 +390,7 @@ function animate() {
     grid.update();
 
     // Spawning invaders' projectiles
-    if (frames % 300 === 0 && grid.invaders.length > 0) {
+    if (frames % 200 === 0 && grid.invaders.length > 0) {
       grid.invaders[Math.floor(Math.random() * grid.invaders.length)].shoot(
         invaderProjectiles
       );
